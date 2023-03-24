@@ -9,7 +9,7 @@ env:
 
 jobs:
   s3_lastbuild:
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
       - name: checkout
         uses: actions/checkout@v1
